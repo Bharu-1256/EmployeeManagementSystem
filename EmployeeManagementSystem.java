@@ -44,10 +44,9 @@ public class EmployeeManagementSystem {
                     EmployeeService.updateEmployee();
                     break;
                 case 5:
-                    System.out.println("👉 Delete Employee (to be implemented)");
+                    EmployeeService.deleteEmployee();
                     break;
                 case 6:
-                    EmployeeService.deleteEmployee();
                     return;
                 default:
                     System.out.println("❌ Invalid choice, try again.");
@@ -63,3 +62,4 @@ public class EmployeeManagementSystem {
         menu();
     }
 }
+
